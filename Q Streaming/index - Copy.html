@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Stream Rooms</title>
+    <style>
+        .grid {
+            width:100vw;
+            height:100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 2px;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 80%;
+        }
+    </style>
 </head>
-<body style="width:100vw; height:100vh;">
-    <table>
-        <tr>
-            <td><h1 style="font-size: 68px; margin: 2px;">T313 (Room 17)</h1><iframe src="http://stats.q2024.org/videos/T313.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">T314 (Room 18)</h1><iframe src="http://stats.q2024.org/videos/T314.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">R108 (Room 19)</h1><iframe src="http://stats.q2024.org/videos/R108.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">R109 (Room 20)</h1><iframe src="http://stats.q2024.org/videos/R109.html" style="width: 700px; height: 500px; "></iframe></td>
-        </tr>
-        <tr>
-            <td><h1 style="font-size: 68px; margin: 2px;">R111 (Room 21)</h1><iframe src="http://stats.q2024.org/videos/R111.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">R112 (Room 22)</h1><iframe src="http://stats.q2024.org/videos/R112.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">FCC (Room 23)</h1><iframe src="http://stats.q2024.org/videos/FCC.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">F201 (Room 24)</h1><iframe src="http://stats.q2024.org/videos/F201.html" style="width: 700px; height: 500px; "></iframe></td>
-        </tr>
-        <tr>
-            <td><h1 style="font-size: 68px; margin: 2px;">FSB101 (Room 25)</h1><iframe src="http://stats.q2024.org/videos/FSB101.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">FSB102 (Room 26)</h1><iframe src="http://stats.q2024.org/videos/FSB102.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">FSB103 (Room 27)</h1><iframe src="http://stats.q2024.org/videos/FSB103.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">C101 (Room 28)</h1><iframe src="http://stats.q2024.org/videos/C101.html" style="width: 700px; height: 500px; "></iframe></td>
-        </tr>
-        <tr>
-            <td><h1 style="font-size: 68px; margin: 2px;">FSB105 (Room 29)</h1><iframe src="http://stats.q2024.org/videos/FSB105.html" style="width: 700px; height: 500px; "></iframe></td>
-            <td><h1 style="font-size: 68px; margin: 2px;">FSB109 (Room 30)</h1><iframe src="http://stats.q2024.org/videos/FSB109.html" style="width: 700px; height: 500px; "></iframe></td>
-        </tr>
-    </table>
+
+<body class="grid">
+    <div>
+        <h1>T313 (Room 17)</h1><iframe src="http://stats.q2024.org/videos/T313.html"></iframe>
+    </div>
+    <div>
+        <h1>T314 (Room 18)</h1><iframe src="http://stats.q2024.org/videos/T314.html"></iframe>
+    </div>
+    <div>
+        <h1>R108 (Room 19)</h1><iframe src="http://stats.q2024.org/videos/R108.html"></iframe>
+    </div>
+    <div>
+        <h1>R109 (Room 20)</h1><iframe src="http://stats.q2024.org/videos/R109.html"></iframe>
+    </div>
+    <div>
+        <h1>R111 (Room 21)</h1><iframe src="http://stats.q2024.org/videos/R111.html"></iframe>
+    </div>
+    <div>
+        <h1>R112 (Room 22)</h1><iframe src="http://stats.q2024.org/videos/R112.html"></iframe>
+    </div>
+    <div>
+        <h1>FCC (Room 23)</h1><iframe src="http://stats.q2024.org/videos/FCC.html"></iframe>
+    </div>
+    <div>
+        <h1>F201 (Room 24)</h1><iframe src="http://stats.q2024.org/videos/F201.html"></iframe>
+    </div>
+    <div>
+        <h1>FSB101 (Room 25)</h1><iframe src="http://stats.q2024.org/videos/FSB101.html"></iframe>
+    </div>
+    <div>
+        <h1>FSB102 (Room 26)</h1><iframe src="http://stats.q2024.org/videos/FSB102.html"></iframe>
+    </div>
+    <div>
+        <h1>FSB103 (Room 27)</h1><iframe src="http://stats.q2024.org/videos/FSB103.html"></iframe>
+    </div>
+    <div>
+        <h1>C101 (Room 28)</h1><iframe src="http://stats.q2024.org/videos/C101.html"></iframe>
+    </div>
+    <div>
+        <h1>FSB105 (Room 29)</h1><iframe src="http://stats.q2024.org/videos/FSB105.html"></iframe>
+    </div>
+    <div>
+        <h1>FSB109 (Room 30)</h1><iframe src="http://stats.q2024.org/videos/FSB109.html"></iframe>
+    </div>
 </body>
+
 </html>
